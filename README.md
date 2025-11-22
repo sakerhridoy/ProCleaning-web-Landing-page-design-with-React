@@ -32,25 +32,6 @@ Built using **React**, **Tailwind CSS**, and **Swiper.js**, optimized for perfor
 
 ---
 
-## 📂 Folder Structure
-
-ProCleaning/
-│── public/
-│── src/
-│ ├── assets/
-│ │ ├── Images/
-│ │ └── Icons/
-│ ├── components/
-│ ├── pages/
-│ ├── App.jsx
-│ └── main.jsx
-│── .gitignore
-│── package.json
-│── vite.config.js
-│── README.md
-
-
-
 ⭐ Support
 
 If you like this project, please give it a star ⭐ on GitHub — it really motivates me to create more!

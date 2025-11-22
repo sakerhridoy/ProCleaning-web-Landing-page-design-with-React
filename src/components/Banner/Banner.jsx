@@ -18,9 +18,18 @@ const Banner = () => {
   return (
     <>
       <section id="home">
-        <div className='bg-cover bg-center bg-no-repeat bg-[url("/src/assets/Images/banner.png")] mb-[75px] h-screen'>
-          <div className="container px-4 xl:px-0">
-            <div className="sm:w-[610px] py-[104px]">
+        <div
+          className='h-screen 
+      bg-no-repeat 
+      bg-cover 
+      bg-center 
+      md:bg-position-[center_right_-150px] 
+      bg-[url("/src/assets/Images/banner-mobile.png")]
+      sm:bg-[url("/src/assets/Images/banner-tab.png")]
+      md:bg-[url("/src/assets/Images/banner.png")] mb-[75px]'
+        >
+          <div className="container px-4 xl:px-0 backdrop-blur-[2px] md:backdrop-blur-none">
+            <div className="lg:w-[610px] py-[104px]">
               <div className="slider-container">
                 <Slider {...settings}>
                   <div className="item">
@@ -30,7 +39,7 @@ const Banner = () => {
                     <h1 className="font-bold text-[36px] md:text-[52px] leading-[115%] pr-0 sm:pr-16 md:pr-0">
                       Specialized, efficient, and thorough cleaning services
                     </h1>
-                    <p className="font-normal text-base md:text-lg text-[#666666] leading-[30px] pt-8 pb-[57px] pr-0 sm:pr-16 md:pr-0">
+                    <p className="font-medium md:font-normal text-base md:text-lg text-black md:text-[#666666] leading-[30px] pt-8 pb-[57px] pr-0 sm:pr-16 md:pr-0">
                       We provide Performing cleaning tasks using the least
                       amount of time, energy, and money.
                     </p>
@@ -42,7 +51,7 @@ const Banner = () => {
                     <h1 className="font-bold text-[36px] md:text-[52px] leading-[115%] pr-0 sm:pr-16 md:pr-0">
                       Looking for reliable cleaners in Ayrshire?
                     </h1>
-                    <p className="font-normal text-base sm:text-lg text-[#666666] leading-[30px] pt-8 pb-[57px] pr-0 sm:pr-16 md:pr-0">
+                    <p className="font-medium md:font-normal text-base md:text-lg text-black md:text-[#666666] leading-[30px] pt-8 pb-[57px] pr-0 sm:pr-16 md:pr-0">
                       Our fully insured team ensures your home, office, or
                       business space remains spotless and hygienic.
                     </p>
@@ -54,7 +63,7 @@ const Banner = () => {
                     <h1 className="font-bold text-[36px] md:text-[52px] leading-[115%] pr-0 sm:pr-16 md:pr-0">
                       Affordable and flexible cleaning services
                     </h1>
-                    <p className="font-normal text-base sm:text-lg text-[#666666] leading-[30px] pt-8 pb-[57px] pr-0 sm:pr-16 md:pr-0">
+                    <p className="font-medium md:font-normal text-base md:text-lg text-black md:text-[#666666] leading-[30px] pt-8 pb-[57px] pr-0 sm:pr-16 md:pr-0">
                       Find out more about our cleaning services and how we can
                       help. Our team ensures your home.
                     </p>
@@ -70,10 +79,10 @@ const Banner = () => {
                     Get Start Now
                   </a>
                 </div>
-                <div className="py-3 sm:py-4 px-4 sm:px-8 bg-transparent rounded-md border border-[#666666]">
+                <div className="py-3 sm:py-4 px-4 sm:px-8 bg-transparent rounded-md border border-black md:border-[#666666]">
                   <a
                     href=""
-                    className="text-[#111D15] text-xs sm:text-base font-medium"
+                    className="text-[#111D15] text-xs sm:text-base font-semibold md:font-medium"
                   >
                     View all Services
                   </a>

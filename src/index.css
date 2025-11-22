@@ -1,0 +1,94 @@
+@import "tailwindcss";
+.container{
+  @apply max-w-[1170px] mx-auto;
+}
+@theme {
+  --font-vietnam:  "Be Vietnam Pro", sans-serif;
+}
+.nav-active{
+  @apply text-[#36B864];
+}
+.mobileMenu .nav-active{
+  @apply text-black;
+}
+@layer{
+  .menu ul li a {
+    @apply font-normal text-base text-[#4D4D4D] hover:text-[#36B864] transition-all duration-300;
+  }
+  .mobileMenu ul li a {
+    @apply text-xl text-white font-semibold hover:text-black transition-all duration-300;
+  }
+  .mySwiperService .swiper-slide-active {
+  transform: scale(1.08);
+}
+.mySwiperService .swiper-slide-active a {
+  color: white;
+  background:#36B864 ;
+}
+.mySwiperService .swiper-slide-active .icn{
+  color: white;
+}
+.mySwiperService .swiper-slide {
+  transition: all 0.3s ease;
+}
+ .mySwiperExpTeam .swiper-slide-active {
+  border:1px solid #83A790;
+  -o-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+}
+ .mySwiperServiceNews .swiper-slide-active {
+  border:1px solid #83A790;
+  -o-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+}
+.mySwiperServiceNews .swiper-slide-active button{
+  background: #36B864;
+  color: white;
+  text-decoration: none;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+}
+.mySwiperPricePlan .swiper-slide-active{
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1) !important;
+  transition: 0.3s ease-in-out;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-transform: translateY(5px);
+  -moz-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  -o-transform: translateY(5px);
+  transform: translateY(5px);
+}
+.mySwiperPricePlan .swiper-slide-active button{
+  background: #36B864;
+  color: white;
+  border:none;
+  text-decoration: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+.mySwiperServiceNews .swiper-slide-active .image{
+position: relative;
+z-index: -1;
+}
+.mySwiperServiceNews .swiper-slide-active .imgBg{ position: absolute; z-index: 1; background: rgba(54, 184, 100, 0.3); width: 100%; height: 100%; top: 0; left:0; -webkit-border-radius:30px; -moz-border-radius:30px; -ms-border-radius:30px; -o-border-radius:30px; border-radius: 30px;
+}
+.mySwiperServiceNews .swiper-slide-active p{
+  border: none;
+}
+}

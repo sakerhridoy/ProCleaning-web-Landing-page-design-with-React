@@ -1,4 +1,4 @@
-# 🧼 Pro Cleaning – Modern Web Landing Page
+#  Pro Cleaning – Modern Web Landing Page
 
 A sleek, fully responsive, and professionally crafted landing page for cleaning services.  
 Built using **React**, **Tailwind CSS**, and **Swiper.js**, optimized for performance and SEO.
